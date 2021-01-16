@@ -9,6 +9,8 @@ How to create &amp; run https server via python coding
 openssl genrsa -des3 -out server.key 2048
 ```
 
+`pass` : 'pass' for example.
+
 ## Create CSR
 ```
 openssl req -new -key server.key -out server.csr
